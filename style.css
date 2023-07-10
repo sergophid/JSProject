@@ -1,0 +1,707 @@
+body.body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(55, 55, 55);
+}
+header.index{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow:0px 5px 15px black;
+    margin-bottom: 20px;
+    background-color: rgb(55, 55, 55);
+}
+header.index h1{
+    color: white;
+}
+
+main.ind{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+}
+section.indexH{
+    width: 30%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0px 5px 15px black;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+ section.indexH h1{
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    /* border-bottom: 1px solid rgb(255, 252, 252); */
+}
+section.indexH input{
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+section.indexH input:focus{
+    background-color: rgb(55, 55, 55);
+}
+section.indexH input::placeholder{
+    color: white;
+}
+section.indexH h1:hover{
+    color: rgb(105, 156, 156);
+    box-shadow: 0px 5px 10px rgb(105, 156, 156) ;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.6s;
+}
+aside.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+aside.log{
+    width: 90%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+aside.reg{
+    width: 90%;
+    display: none;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+header.userP{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header.userP a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+header.userP a:hover{
+    color: orange;
+}
+section.user-page{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+aside.right-user-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 7px;
+    height: 50px ;
+}
+aside.right-user-page ul li{
+    list-style: none;
+}
+aside.right-user-page ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+aside.right-user-page a:hover{
+    color: orange;
+}
+header.cabinetH{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+section.header-section{
+    width: 50%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px black;
+    row-gap: 10px;
+}
+section.header-section input,section.header-section textarea{
+    width: 90%;
+}
+section.left{
+    height: 400px;
+}
+section.left a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+section.left div.nle{
+margin-top: 10px;
+display: grid;
+grid-template-columns: 1fr;
+row-gap: 20px;
+}
+header.cabinetH section.left a:hover{
+    color: orange;
+}
+section.right-cabinet{
+    height: 400px;
+}
+header.cabinetH input{
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+header.cabinetH input::placeholder{
+    color: white;
+}
+header.cabinetH input:focus{
+    background-color: rgb(55, 55, 55);
+}
+header.cabinetH textarea{
+    background-color: rgb(55, 55, 55);
+}
+header.cabinetH textarea:focus{
+    background-color: rgb(55, 55, 55);
+
+}
+header.cabinetH textarea::placeholder{
+    color: white;
+}
+section.right-cabinet article.Human{
+    border-radius: 10px;
+    box-shadow:cadetblue 0px 3px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+section.post{
+    width: 300px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0);
+    color: white;
+}
+section.post img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main.posts{
+width: 100%;
+height: 670px;
+display: grid;
+justify-items: center;
+justify-self: center;
+grid-template-rows: 50% 50%;
+}
+main.posts h1{
+color:white;
+font-size: 70px;
+display: flex;
+align-items: center;
+margin: 0px;
+}
+main.posts div{
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+main.posts div:hover{
+    background-color: white;
+    color: black;
+}
+video{
+    width: 100%;
+    /* height: 100%; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    z-index: -1;
+}
+main.test{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.userIMG{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+label.sb{
+    font-size: 12px;
+    color:transparent;    
+}
+label.tx{
+    font-size: 12px;
+    color:transparent;   
+}
+div.txt{
+    width: 95%;
+}
+div.sbj{
+    width: 95%;
+}
+div.accordion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    /* box-shadow: 0px 5px 15px rgb(181, 181, 181); */
+    border-radius: 50px;
+    font-size: 10px;
+    cursor: pointer;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+div.accordion h5{
+display: flex;
+align-items: center;
+justify-content:center ;
+gap: 5px;
+user-select: none;
+}
+div.accordion-open{
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px;
+    display: none;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: 50px 50px 50px;
+    height: 10px;
+    width: 120px;
+    transition: all 3s;
+    background-color: rgb(255, 255, 255);
+    animation-name: acc;
+    animation-duration: 0.3s;
+}
+
+@keyframes acc {
+0%{
+    height: 5px;
+    border-bottom: 100px;
+}
+25%{
+    height: 10px;
+    border-bottom: 100px;
+
+}
+50%{
+height: 40px;
+border-bottom: 100px;
+
+}
+75%{
+    height: 80px;
+    border-bottom: 100px;
+}
+100%{
+    height: 150px;
+    border-bottom: 100px;
+}
+
+}
+
+div.accordion-open a{
+    color: black;
+}
+
+.header-section h1{
+    color: white;
+}
+h1.M{
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    width: 99%;
+    height: 200px;
+}
+div.chat{
+    border: 1px solid white;
+    border-radius: 20px 20px 1px 20px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+}
+div.chat:hover{
+    background-color: white;
+    color: black;
+}
+article.chat-open{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: fixed;
+    bottom: -100%;
+    transition: all 1s;
+    z-index: 10;
+}
+div.top{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+.close{
+    margin-right: 20px;
+    border: 1px solid white ;
+    color: white;
+    border-radius: 70px;
+    padding: 10px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: white;
+    color: black;
+}
+div.center{
+    width: 100%;
+    height: 298px;
+    border-radius: 10px;
+    color: white;
+    overflow-y: scroll;
+    display: grid;
+    align-items: end;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(0, 0, 0, 0.9) ;
+}
+.cht-text{
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.send{
+    color: white;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.send i{
+    font-size: 35px;
+}
+.send:hover{
+    background-color: white ;
+    color: black;
+}
+div.top h1{
+    color: white;
+}
+.top .Online{
+    border: 1px solid white ;
+    width: 20px;
+    height: 20px;
+    /* background-color: white; */
+    border-radius: 50px;
+    margin-left: 20px;
+    animation-name: som ;
+    animation-duration:0.6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes som {
+    from{
+        background-color:green;
+    }
+    to{
+        background-color:white;
+    }
+}
+
+div.User{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px;
+    text-align: end;
+    justify-self: end;
+    /* margin-left:200px; */
+    /* margin-right: 0px; */
+
+}
+div.User:hover i{
+display: flex;
+}
+
+div.User h1{
+font-size: 15px;
+display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+}
+div.User h1 i{
+    color: rgb(95, 93, 93);
+    cursor: pointer;
+    display: none;
+}
+div.User h1 i:hover{
+    color: white;
+}
+
+div.another h1{
+font-size: 15px;
+}
+
+div.User p {
+    font-size: 12px;
+    color: silver;
+    margin: 0px;
+}
+
+div.another{
+    width: fit-content;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px 20px 20px 0px;
+    margin: 10px 0;
+    margin-left: 10px;
+    
+}
+div.another p{
+    font-size: 12px;
+    color: silver;
+    margin: 0px;
+}
+main.allPosts{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+   justify-items: center;
+}
+
+aside.NL{
+    display: flex;
+    gap: 10px;
+    margin-left: 800px;
+}
+aside.NL p{
+    color: white;
+}
+
+aside.NL i{
+    color: white;
+    font-size: 25px;
+}
+
+a#logOut{
+    cursor: pointer;
+}
+a#logOut:hover{
+    color: orange;
+}
+
+div.show-pass{
+    width: 100%;
+    display: flex;
+    gap: 3px;
+}
+div.show-pass i{
+    color: silver;
+    font-size: 15px;
+}
+div.show-pass i:hover{
+    color: white;
+}
+div.show-pass p{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 10px;
+    color:silver;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    width: 25%;
+}
+div.show-pass p:hover{
+    color: white;
+}
+
+div.cardD p.pt{
+    font-size: 13px;
+    color: silver;
+}
+div.cardD p.card-text{
+    color: white;
+}
+
+div.cardD h5{
+    color: white;
+}
+div.cardD{
+    background-color: inherit;
+    box-shadow: 0px 0px 0px 1px rgb(42, 37, 37);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+
+}
+div.cardD div.img{
+ height: 100%;
+}
+div.cardD img.cimg{
+    height: 250px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+ section.left h4{
+    color: white;
+}
+main.c{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap:20px;
+}
+.card-name{
+    color: white;
+}
+
+p.remove-post{
+    display: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(108, 108, 108);
+}
+
+p.remove-post:hover{
+    color: white;
+}
+
+div.cardD:hover p.remove-post{
+   display:inline;
+}
+
+#Usimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid  rgb(5, 255, 138);
+}
+
+.pic{
+   width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    border: 1px solid rgb(0, 8, 255);
+}
+
+#uImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(0, 8, 255);
+}
+.i{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(0, 8, 255);
+}
+article.myPosts{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article.myPosts h1{
+    color: white;
+    font-size: 80px;
+}
+section.MP{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: fit-content;
+    row-gap: 50px;
+}
+
+
