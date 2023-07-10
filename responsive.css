@@ -59,6 +59,9 @@
    video{
     width: 60px;
    }
+      aside.NL{
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 320px){
     main.posts{
