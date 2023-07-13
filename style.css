@@ -385,10 +385,13 @@ article.chat-open{
     bottom: -100%;
     transition: all 1s;
     z-index: 10;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 19% 61% 70%;
 }
 div.top{
     width: 100%;
-    height: 100px;
+    height: 100%;
     border: 1px solid white;
     border-radius:10px;
     display: flex;
@@ -415,16 +418,19 @@ div.top{
 }
 div.center{
     width: 100%;
-    height: 298px;
+    height: 100%;
     border-radius: 10px;
     color: white;
-    overflow-y: scroll;
+    overflow-y:auto;
+    scroll-behavior: smooth;
     display: grid;
-    align-items: end;
+    align-items: center;
     padding: 0px;
     margin: 0px;
     background-color: rgb(0, 0, 0, 0.9);
+    grid-template-rows: 100px;
 }
+
 .foot{
     width: 100%;
     height: 100px;
@@ -434,6 +440,7 @@ div.center{
     align-items: center;
     justify-content: space-around;
     background-color:rgb(0, 0, 0, 0.9) ;
+    resize: none;
 }
 .cht-text{
     background: transparent;

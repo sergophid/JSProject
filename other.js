@@ -48,7 +48,7 @@ clickChat.addEventListener("click",()=>{
 })
 
 closeChat.addEventListener("click",()=>{
-    chatOpen.style.display = "none"
+    // chatOpen.style.display = "none"
     chatOpen.style.bottom = "-100%"
     // if(chatOpen.style.bottom == "0"){
     //     chatOpen.style.bottom = "-100%"
